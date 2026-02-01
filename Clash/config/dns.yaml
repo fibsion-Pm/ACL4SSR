@@ -12,16 +12,22 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
 
+  # 直连域名：国内DNS（国内CDN调度最准）
+  direct-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+
   # ⭐ 启动阶段 / DoH入口解析兜底
   default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
     - 1.1.1.1
     - 8.8.8.8
 
   # ⭐ 普通域名解析（国内优先 + 加密兜底）
   nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-    - tls://1.1.1.1
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 
   # ⭐ 代理节点(server)域名解析（关键，防节点解析异常）
   proxy-server-nameserver:
@@ -39,7 +45,7 @@ dns:
     geoip: true
     geoip-code: CN
     ipcidr:
-      - 240.0.0.0/4
+      - 198.18.0.0/16
 
   # ⭐ Fake-IP 兼容系统联网检测 + 局域网
   fake-ip-filter:
