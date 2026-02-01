@@ -12,13 +12,13 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
 
-  # 🚀 国内 DNS：最快（UDP，直连）
+  # 国内 DNS：最快（UDP，直连）
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
     - tls://1.1.1.1
 
-  # 🌍 国外 DNS：只给代理流量用
+  # 国外 DNS：只给代理流量用
   fallback:
     - https://1.1.1.1/dns-query
     - https://8.8.8.8/dns-query
@@ -30,13 +30,13 @@ dns:
       - 240.0.0.0/4
 
   fake-ip-filter:
-  - '*.lan'
-  - '*.local'
-  - '*.localdomain'
-  - 'localhost'
-  - 'time.*'
-  - '*.ntp.org'
-  - '*.msftconnecttest.com'
-  - 'dns.msftncsi.com'
-  - 'connectivitycheck.gstatic.com'
-  - 'captive.apple.com'
+    - '*.lan'
+    - '*.local'
+    - '*.localdomain'
+    - 'localhost'
+    - 'time.*'
+    - '*.ntp.org'
+    - '*.msftconnecttest.com'
+    - 'dns.msftncsi.com'
+    - 'connectivitycheck.gstatic.com'
+    - 'captive.apple.com'
