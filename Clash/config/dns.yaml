@@ -12,16 +12,28 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
 
-  # 国内 DNS：最快（UDP，直连）
+  # ⭐ 启动阶段 / DoH入口解析兜底
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+
+  # ⭐ 普通域名解析（国内优先 + 加密兜底）
   nameserver:
     - 223.5.5.5
     - 119.29.29.29
     - tls://1.1.1.1
 
-  # 国外 DNS：只给代理流量用
+  # ⭐ 代理节点(server)域名解析（关键，防节点解析异常）
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+  # ⭐ fallback（污染 / 非CN / 异常解析兜底）
   fallback:
     - https://1.1.1.1/dns-query
     - https://8.8.8.8/dns-query
+    - tls://1.1.1.1
+    - tls://8.8.8.8
 
   fallback-filter:
     geoip: true
@@ -29,6 +41,7 @@ dns:
     ipcidr:
       - 240.0.0.0/4
 
+  # ⭐ Fake-IP 兼容系统联网检测 + 局域网
   fake-ip-filter:
     - '*.lan'
     - '*.local'
