@@ -1,6 +1,13 @@
 # 经常访问的一些博主
 # 一些自己搭建的网站，需要外网访问
 
+# PM新增节点
+DOMAIN-SUFFIX,mega.nz
+DOMAIN-SUFFIX,mega.co.nz
+DOMAIN-SUFFIX,f95zone.to
+DOMAIN-SUFFIX,gamespot.com.cn
+PROCESS-NAME,AdsPower Global.exe
+
 # 博主
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,m123.org
