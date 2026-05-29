@@ -1,5 +1,7 @@
 # 影视
 # 一些自己搭建的网站，需要直连
+
+# PM新增直连
 DOMAIN-SUFFIX,sharepoint.com
 DOMAIN-SUFFIX,sharepointonline.com
 DOMAIN-SUFFIX,onedrive.com
