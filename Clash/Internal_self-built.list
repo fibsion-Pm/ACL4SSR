@@ -18,6 +18,8 @@ DOMAIN-SUFFIX,cilibai.net
 DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,seagm.com
 PROCESS-NAME,WSH2009.exe
+PROCESS-NAME,OneDrive.exe
+
 
 # 影视
 DOMAIN-SUFFIX,tv.ggaa.me
