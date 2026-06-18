@@ -12,6 +12,12 @@ DOMAIN-SUFFIX,live.com
 DOMAIN,admin.onedrive.com
 DOMAIN,oneclient.sfx.ms
 DOMAIN,g.live.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,foxmail.com
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,yeah.net
 DOMAIN-SUFFIX,feemoo.com
 DOMAIN-SUFFIX,btstate.com
 DOMAIN-SUFFIX,cilibai.net
@@ -19,6 +25,7 @@ DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,seagm.com
 PROCESS-NAME,WSH2009.exe
 PROCESS-NAME,OneDrive.exe
+PROCESS-NAME,AppleMusic.exe
 
 
 # 影视
