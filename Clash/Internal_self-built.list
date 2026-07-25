@@ -20,6 +20,8 @@ DOMAIN-SUFFIX,126.com
 DOMAIN-SUFFIX,yeah.net
 DOMAIN-SUFFIX,lol.qq.com
 DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,itunes.apple.com
+# PM新增直连2
 DOMAIN-SUFFIX,feemoo.com
 DOMAIN-SUFFIX,btstate.com
 DOMAIN-SUFFIX,cilibai.net
@@ -28,7 +30,6 @@ DOMAIN-SUFFIX,seagm.com
 PROCESS-NAME,WSH2009.exe
 PROCESS-NAME,OneDrive.exe
 PROCESS-NAME,AppleMusic.exe
-DOMAIN-SUFFIX,itunes.apple.com
 
 
 # 影视
