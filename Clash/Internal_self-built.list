@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,btstate.com
 DOMAIN-SUFFIX,cilibai.net
 DOMAIN-SUFFIX,oyunfor.com
 DOMAIN-SUFFIX,seagm.com
+PROCESS-NAME,feemoo.exe
 PROCESS-NAME,WSH2009.exe
 PROCESS-NAME,OneDrive.exe
 PROCESS-NAME,AppleMusic.exe
