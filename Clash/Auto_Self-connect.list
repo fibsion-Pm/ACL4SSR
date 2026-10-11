@@ -45,3 +45,4 @@ DOMAIN-SUFFIX,account.proton.me
 DOMAIN-SUFFIX,x.com
 PROCESS-NAME,Codex.exe
 PROCESS-NAME,codex.exe
+PROCESS-NAME,ChatGPT.exe
