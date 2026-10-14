@@ -44,6 +44,6 @@ DOMAIN-SUFFIX,itch.io
 DOMAIN-SUFFIX,mail.proton.me
 DOMAIN-SUFFIX,account.proton.me
 DOMAIN-SUFFIX,x.com
-PROCESS-NAME,Codex.exe
-PROCESS-NAME,codex.exe
-PROCESS-NAME,ChatGPT.exe
+# PROCESS-NAME,Codex.exe
+# PROCESS-NAME,codex.exe
+# PROCESS-NAME,ChatGPT.exe
