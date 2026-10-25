@@ -33,6 +33,9 @@ PROCESS-NAME,WSH2009.exe
 PROCESS-NAME,OneDrive.exe
 PROCESS-NAME,AppleMusic.exe
 PROCESS-NAME,MTool.exe
+DOMAIN-KEYWORD,zhaopin.com
+DOMAIN-KEYWORD,liepin.com
+DOMAIN-KEYWORD,zhipin.com
 
 # 影视
 DOMAIN-SUFFIX,tv.ggaa.me
