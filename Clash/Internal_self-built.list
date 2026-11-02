@@ -1,5 +1,4 @@
-# 影视
-# 一些自己搭建的网站，需要直连
+# 直连
 
 # PM新增直连
 DOMAIN-SUFFIX,sharepoint.com
@@ -33,6 +32,7 @@ PROCESS-NAME,WSH2009.exe
 PROCESS-NAME,OneDrive.exe
 PROCESS-NAME,AppleMusic.exe
 PROCESS-NAME,MTool.exe
+PROCESS-NAME,steam.exe
 DOMAIN-KEYWORD,zhaopin.com
 DOMAIN-KEYWORD,liepin.com
 DOMAIN-KEYWORD,zhipin.com
