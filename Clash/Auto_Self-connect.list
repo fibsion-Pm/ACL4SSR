@@ -1,6 +1,6 @@
 # PM自动
 
-# 内容：Claude
+# 内容：Claude ---------------------------------------------------------------------------------
 # 核心域名（DOMAIN-SUFFIX 已覆盖所有 *.anthropic.com 子域名）
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
@@ -35,11 +35,19 @@ IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
 IP-ASN,399358,no-resolve
 
-# 内容：Gemini
+# Gemini ---------------------------------------------------------------------------------
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,gemini.google
 
 
-
-# 其他
+# 其他 ---------------------------------------------------------------------------------
 DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,mail.google.com
 DOMAIN-SUFFIX,f95zone.to
