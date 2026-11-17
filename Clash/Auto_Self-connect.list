@@ -1,3 +1,5 @@
+# PM自动
+
 # 内容：Claude
 # 核心域名（DOMAIN-SUFFIX 已覆盖所有 *.anthropic.com 子域名）
 DOMAIN-SUFFIX,anthropic.com
@@ -32,6 +34,10 @@ DOMAIN,cdn.usefathom.com
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-CIDR6,2607:6bc0::/32,no-resolve
 IP-ASN,399358,no-resolve
+
+# 内容：Gemini
+
+
 
 # 其他
 DOMAIN-SUFFIX,linux.do
